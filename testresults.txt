@@ -1,0 +1,90 @@
+Test 1
+
+Enter number of rows: 20
+Enter number of cols: 20
+┌	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	┐	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+|																			|	
+└	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	┘	
+Program ended with exit code: 0
+
+
+Test 2
+
+Enter number of rows: 1010
+1010's length is too long.
+Program ended with exit code: 255
+
+Test 3
+
+Enter number of rows: 10
+Enter number of cols: 5
+┌	-	-	-	┐	
+|				|	
+|				|	
+|				|	
+|				|	
+|				|	
+|				|	
+|				|	
+|				|	
+└	-	-	-	┘	
+Program ended with exit code: 0
+
+Test 4
+
+Enter number of rows: 10a
+'10a' contains non-integers
+Program ended with exit code: 255
+
+Test 5
+
+Enter number of rows: 50
+Enter number of cols: 10a
+'10a' contains non-integers
+Program ended with exit code: 255
+
+Test 6
+Enter number of rows: 1
+Value needs to be 2 or greater
+Program ended with exit code: 255
+
+Test 7
+Enter number of rows: 2
+Enter number of cols: 1
+Value needs to be 2 or greater
+Program ended with exit code: 255
+
+Test 8
+
+Enter number of rows: 2.4
+'2.4' contains non-integers
+Program ended with exit code: 255
+
+Test 9
+
+Enter number of rows: 9
+Enter number of cols: 3.6
+'3.6' contains non-integers
+Program ended with exit code: 255
+
+Test 10
+
+
+
